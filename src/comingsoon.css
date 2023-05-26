@@ -1,0 +1,57 @@
+
+.fonts{
+    color: rgb(240,230,140);
+    font-family: initial;
+    font-size: medium;
+}
+.middlediv{
+
+     /* padding-top:  25% 25% 25%;  */
+    text-align: center !important ;
+    justify-content: center !important;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+ 
+}
+
+
+.comingsoontext{
+    font-size: 20px !important;
+}
+@media  (min-width: 450px) {
+    .comingsoontext{
+        FONT-SIZE: 100px !important;
+    }
+  }
+  @media  (min-width: 1550px) {
+    .comingsoontext{
+        FONT-SIZE: 100PX;
+    }
+  }
+
+.websitename{
+    font-size: 10px;
+}
+@media  (min-width: 450px) {
+    .websitename{
+        FONT-SIZE: 30px !important;
+    }
+  }
+  @media  (min-width: 1550px) {
+    .websitename{
+        FONT-SIZE: 30PX;
+    }
+  }
+
+
+
+
+
+.row1{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
